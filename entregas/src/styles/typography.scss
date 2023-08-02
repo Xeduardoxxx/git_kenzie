@@ -1,0 +1,23 @@
+.title{
+    font-family: var(--font-primary);
+    font-weight: 700;
+    line-height: 2.125rem;
+
+    &.one{
+        font-size: 1.375rem;
+    }
+    &.two{
+        font-size: 1rem ; 
+    }
+}
+
+.paragraph{
+    font-family: var(--font-primary);
+    font-size: 0.75rem;
+    font-weight: 25rem;
+    line-height: 1.375rem;
+&.bold, strong{
+    font-weight: 700;
+}
+
+}

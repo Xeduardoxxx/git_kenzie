@@ -1,0 +1,28 @@
+.body {
+    display: flex;
+    justify-content: center;
+    gap: 3.125rem;
+
+    @media (max-width: 32rem) {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .bodyForm {
+        padding: 2rem;
+
+        span {
+            font-family: var(--font-primary);
+            color: var(--color-primary);
+            padding: 2rem;
+        }
+
+        .total {
+            padding: 3.125rem;
+        }
+
+
+    }
+
+}
